@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        // Здесь создаём наших студентов
         Gryffindor harry = new Gryffindor("Гарри Поттер", 90, 100, 85, 80, 95);
         Gryffindor hermione = new Gryffindor("Гермиона Грейнджер", 95, 120, 90, 85, 90);
         Hufflepuff cedric = new Hufflepuff("Седрик Диггори", 85, 95, 90, 85, 80);
@@ -9,6 +10,7 @@ public class Main {
         Slytherin draco = new Slytherin("Драко Малфой", 89, 97, 91, 90, 85, 88, 87);
         Slytherin graham = new Slytherin("Грэхэм Монтегю", 87, 93, 89, 85, 84, 86, 85);
 
+        // Проверяем работоспособность наших методов
         harry.printDescription();
         hermione.printDescription();
         Gryffindor.compareGryffindors(harry, hermione);
